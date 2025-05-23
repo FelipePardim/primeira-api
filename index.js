@@ -11,7 +11,7 @@ server.get("/", (request, response) => {
 })
 
 server.get("/senai", (request, response) => {
- response.json({"cursos":"5 cursos"});
+ response.json({"cursos":"5 cursos atuais"});
 })
 
 server.post("/", (request, response) => {
